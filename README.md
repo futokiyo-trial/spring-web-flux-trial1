@@ -13,13 +13,13 @@ warファイル「spring-web-flux-trial1-0.0.1-SNAPSHOT.war」をJBoss EAP/WildF
 ## 動作確認
 
 ```
-curl -i http://localhost:8080/spring-web-flux-trial1-0.0.1-SNAPSHOT/fluxtest1/aa
+curl -i http://localhost:8080/spring-web-flux-trial1-0.0.1-SNAPSHOT/fluxtest1/aa/500
 ```
 
 Result is aa!
 
 ```
-curl -i curl -i http://localhost:8080/spring-web-flux-trial1-0.0.1-SNAPSHOT/fluxtest1/aiueo
+curl -i curl -i http://localhost:8080/spring-web-flux-trial1-0.0.1-SNAPSHOT/fluxtest1/aiueo/3000
 ```
 
 *aiueo*kakikukeko*sashisuseso*tatitsuteto
