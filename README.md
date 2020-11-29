@@ -19,10 +19,40 @@ curl -i http://localhost:8080/spring-web-flux-trial1-0.0.1-SNAPSHOT/fluxtest1/aa
 Result is aa!
 
 ```
-curl -i curl -i http://localhost:8080/spring-web-flux-trial1-0.0.1-SNAPSHOT/fluxtest1/aiueo/3000
+curl -i http://localhost:8080/spring-web-flux-trial1-0.0.1-SNAPSHOT/fluxtest1/aiueo/3000
 ```
 
 *aiueo*kakikukeko*sashisuseso*tatitsuteto
+
+```
+curl -i http://localhost:8080/spring-web-flux-trial1-0.0.1-SNAPSHOT/fluxtest1/aiueo2
+```
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Transfer-Encoding: chunked
+Content-Type: text/event-stream
+Date: Sun, 29 Nov 2020 08:19:17 GMT
+
+data:aiueo
+
+data:kakikukeko
+
+data:sashisuseso
+
+data:tatitsuteto
+
+data:naninuneno
+
+data:hahihuheho
+
+data:mamimumemo
+
+data:yayiyuyeyo
+
+data:wawiwuwewo
+
+data:gagigugego
 
 ## 参考サイト
 
